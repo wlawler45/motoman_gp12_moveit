@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: motoman_gp12_support
+    relative_path: urdf/gp12.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/motoman_gp12.srdf
+  CONFIG:
+    author_name: William Lawler
+    author_email: lawlew3@rpi.edu
+    generated_timestamp: 1602168051
